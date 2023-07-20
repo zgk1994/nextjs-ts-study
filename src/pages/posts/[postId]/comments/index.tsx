@@ -9,7 +9,7 @@ export default function Index(props: any) {
       <h1>我是评论列表,更新时间{props.currentDate}</h1>
       {props.info.comments.map((x: any) => {
         return (
-          <h2>
+          <h2 key={x.postId}>
             postId:{x.postId},username:{x.user.username},comments:{x.body}
           </h2>
         )

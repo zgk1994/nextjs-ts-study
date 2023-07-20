@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Index(props: any) {
+export default function Index() {
   return (
     <div style={{ marginTop: 60 }}>
       <Head>

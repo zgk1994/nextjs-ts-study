@@ -1,4 +1,4 @@
-import axios from 'axios'
+// import axios from 'axios'
 import type { NextApiRequest, NextApiResponse } from 'next'
 import mock from './mock.json'
 type Data = {

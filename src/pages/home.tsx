@@ -1,4 +1,4 @@
-export default function Home(props: any) {
+export default function Home() {
   return (
     <div style={{ marginTop: 60 }}>
       <h1>我是首页，用来测试render和getTitle</h1>
